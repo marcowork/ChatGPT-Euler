@@ -1,0 +1,3 @@
+**Even fibonacci numbers**
+
+To solve this problem in Go, you can use a loop to iterate through the terms of the Fibonacci sequence, starting with the first two terms, 1 and 2. On each iteration of the loop, you can calculate the next term in the sequence by adding the two previous terms. You can then check if the current term is even, and if it is, add it to a running total. You can continue this process until you reach a term whose value is greater than four million, at which point you can print the sum of the even-valued terms. This code will output the sum of the even-valued terms in the Fibonacci sequence whose values do not exceed four million.

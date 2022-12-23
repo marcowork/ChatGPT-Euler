@@ -1,0 +1,3 @@
+**Smallest  multiple**
+
+This solution works by starting with the smallest number that is evenly divisible by all of the numbers from 1 to 10 (which is 2520) and then checking if it is also evenly divisible by all of the numbers from 11 to 20. If it is not evenly divisible by all of the numbers from 11 to 20, then it increments the number and tries again. This process continues until it finds a number that is evenly divisible by all of the numbers from 1 to 20, at which point it prints the number and exits the loop.

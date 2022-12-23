@@ -1,0 +1,3 @@
+**Find largesst prime factor**
+
+This code uses a technique called "trial division" to find the prime factors of a number. It starts by dividing the number by the smallest prime number (2) as many times as it can, then continues with the next prime number (3) and keeps incrementing by 2 (to skip even numbers) until it reaches the square root of the number. At each step, if the number is evenly divisible by the current factor, it divides it by that factor and updates the largest factor. Once it has reached the square root of the number, if there is anything left of the number it must be a prime number and therefore the largest prime factor.
