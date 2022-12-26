@@ -1,3 +1,3 @@
-module 0001
+module main.go
 
 go 1.17

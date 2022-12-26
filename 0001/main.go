@@ -1,10 +1,10 @@
 package main
 
 import (
-	b "0001/001.go"
 	"fmt"
+	"0001/001.go"
 )
 
 func main() {
-	fmt.Println(b.SumOfMultiples())
+	fmt.Println(001.SumOfMultiples())
 }
